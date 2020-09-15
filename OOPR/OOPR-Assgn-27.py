@@ -2,6 +2,7 @@
 #This class represents ThemePark
 class ThemePark:
     #dict_of_games contains the game name as key, price/ride and points that can be earned by customer in a list as value
+    
     dict_of_games={"Game1":[35.5,5], "Game2":[40.0,6],"Game3":[120.0,10], "Game4":[60.0,7],"Game5":[25.0,4]}
     @staticmethod
     def validate_game(game_input):
