@@ -2,6 +2,7 @@
 
 def merge_list(list1, list2):
     merged_data=""
+  
     list2.reverse()
     reversed(list2)
     for x in range (0,len(list1)):
